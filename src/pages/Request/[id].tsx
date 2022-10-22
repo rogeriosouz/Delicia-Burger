@@ -138,8 +138,6 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
       headers: { authorization: authUser },
     });
 
-    console.log(response.data);
-
     return {
       props: {
         data: response.data,

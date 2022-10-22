@@ -54,7 +54,7 @@ export default function Register() {
     <styled.Register>
       <Navigation />
       <styled.Title>
-        B7 <styled.Span>•</styled.Span> Burger
+        RO <styled.Span>•</styled.Span> Burger
       </styled.Title>
 
       <styled.SubTitle>

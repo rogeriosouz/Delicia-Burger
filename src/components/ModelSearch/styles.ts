@@ -28,8 +28,7 @@ export const ModelSearch = styled.section<ModelSearchProps>`
 
 export const Search = styled.p`
   ${({ theme }) => css`
-    margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     color: ${theme.colors.subTitle};
     font-size: 1.6rem;
     font-weight: ${theme.colors.md};
@@ -41,7 +40,7 @@ export const ContainerProducts = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.4rem;
-    margin-top: 2.4rem;
+    margin-top: 1rem;
   `}
 `;
 
